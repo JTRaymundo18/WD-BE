@@ -29,9 +29,9 @@ $islandOfPersonalityResults = executeQuery($islandOfPersonalityQuery);
     }
 </style>
 
-<body>
+<body data-bs-theme="dark">
 
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar">
         <a class="navbar-brand" href="#">
             <img src="images/icon.png" width="50" height="30" class="d-inline-block align-top mx-3">
             My Islands of Personality
@@ -39,7 +39,7 @@ $islandOfPersonalityResults = executeQuery($islandOfPersonalityQuery);
     </nav>
 
     <div class="w3-display-container" style="margin-bottom:100px">
-        <img src="images/profile.jpg" style="width:100%">
+        <img src="images/bg.png" style="width:100%">
         <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small"
             style="bottom:10%;opacity:0.7;width:70%">
             <h2><b>Welcome to my Islands of Personality.<br></h2>
